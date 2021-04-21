@@ -4,7 +4,7 @@ pipeline{
         stage('gitclone'){
             agent any
             steps{
-                git credentialsId: 'dc6b3f14-b7b3-40a9-9880-5cb9f98e114c', url: 'https://gitlab.com/shazforiot/gameoflife.git'
+                git credentialsId: '773670cc-b6f9-4487-92c9-548a8d065f2e', url: 'https://github.com/alwaysjayaramsv/Ci-Cd-pipeline.git'
             }
         }
         stage('compile'){
